@@ -1,0 +1,76 @@
+#buttons {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  display: inline-block;
+  width: 280px;
+  height: auto;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+button {
+  background-color: #bbc2bd;
+  margin: 0 4px 10px 8px;
+  height: 40px;
+  width: 50px;
+  font-family: 'Orbitron', sans-serif;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-box-shadow: #959595 0 2px 5px;
+  -moz-box-shadow: #959595 0 2px 5px;
+  border-radius: 3px;
+  box-shadow: #959595 0 2px 5px;
+}
+
+button:active {
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
+
+#equalButton {
+  position: absolute;
+  margin-left: 12px;
+  margin-top: -50px;
+  height: 90px;
+}
+
+#zeroButton {
+  width: 117px;
+}
+
+#result {
+	height: 40px;
+	width: 300px;
+	border-style: solid;
+	border-color: #4e5751;
+	background-color: #929D95;
+	font-size:30px;
+  	font-family: 'Orbitron', sans-serif;
+  	text-align: right;
+}
+
+#calculator {
+	padding: 20px;
+	background-color: #246EB9;
+	height: 340px;
+	width: 300px;
+	position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#brand{
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 18px;
+	text-align: right;
+}
